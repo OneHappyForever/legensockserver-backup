@@ -15,10 +15,10 @@ if [ ! -d "/usr/local/legendsock" ]; then
 fi
 
 # 检查是否 CentOS
-if [ "`cat /etc/redhat-release 2>/dev/null| cut -d\  -f1`" != "CentOS" ]; then
-  echo "Error: The current system is not CentOS";
-  exit 1;
-fi
+#if [ "`cat /etc/redhat-release 2>/dev/null| cut -d\  -f1`" != "CentOS" ]; then
+#  echo "Error: The current system is not CentOS";
+#  exit 1;
+#fi
 
 # 输出带颜色的文字
 Color_Text()
